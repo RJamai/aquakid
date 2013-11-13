@@ -1,3 +1,8 @@
+<?php
+/*
+Template Name: Secret du bonheur
+*/
+?>
 <?php get_header(); ?>
 
         <div class="l-constrained">

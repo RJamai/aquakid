@@ -1,3 +1,8 @@
+<?php
+/*
+Template Name: Nous trouver
+*/
+?>
 <?php get_header(); ?>
 
 <div class="l-constrained">
