@@ -6,7 +6,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title><?php the_title(); ?>s</title>
+    <title><?php the_title(); ?></title>
     <meta name="description" content="La joyeuse bande d'AQUAKID ne va pas tarder à débarquer dans ton quartier. Alors ouvre l'oeil et prépare toi pour la fiesta !">
     <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1.0, user-scalable=no">
 
@@ -24,26 +24,26 @@
 
 <header class="l-header">
     <div class="header-backgroundcolor">
-        <a class="header-logo" href="index.html">Aquakid - L'eau officielle des enfants</a>
+        <a class="header-logo" href="index.php">Aquakid - L'eau officielle des enfants</a>
     </div>
     <nav class="l-nav l-constrained clearfix">
-        <a href="apropos.html" class="nav-link nav-link-about">
+        <a href="apropos.php" class="nav-link nav-link-about">
             <i class="icon-cat"></i>
             À propos<br /> de nous
         </a>
-        <a href="bouteilles-personnages.html" class="nav-link nav-link-bottles">
+        <a href="bouteilles-personnages.php" class="nav-link nav-link-bottles">
             <i class="icon-monkey"></i>
             Bouteilles et<br /> personnages
         </a>
-        <a href="eau-magique.html" class="nav-link nav-link-water">
+        <a href="eau-magique.php" class="nav-link nav-link-water">
             <i class="icon-lion"></i>
             Notre eau<br /> magique
         </a>
-        <a href="secret-bonheur.html" class="nav-link nav-link-happiness">
+        <a href="secret-bonheur.php" class="nav-link nav-link-happiness">
             <i class="icon-duck"></i>
             Le secret<br /> du bonheur
         </a>
-        <a href="ou-nous-trouver.html" class="nav-link nav-link-findus is-active">
+        <a href="ou-nous-trouver.php" class="nav-link nav-link-findus is-active">
             <i class="icon-chick"></i>
             Où nous<br /> trouver
         </a>
