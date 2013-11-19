@@ -4,7 +4,7 @@
 	        			<i class="icon-elephant"></i>
 	        			FAQ
 	        		</a>
-	        		<a href="contact.html" class="nav-link nav-link-contact">
+	        		<a href="page-contact.php" class="nav-link nav-link-contact">
 	        			<i class="icon-crocodile"></i>
 	        			Contact
 	        		</a>
