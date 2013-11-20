@@ -6,7 +6,7 @@
         <![endif]-->
 		
   		<a href="http://www.aquakid.com/wordpress/a-propos-de-nous/" class="home-characters">
-  			<img id="home-characters" src="img/aquakid-eau-officielle-des-enfants.png" alt="Aquakid - L'eau officielle des enfants" />
+  			<img id="home-characters" src="http://www.aquakid.com/wordpress/wp-content/themes/aquakid/img/aquakid-eau-officielle-des-enfants.png" alt="Aquakid - L'eau officielle des enfants" />
   		</a>
   		<a href="http://www.aquakid.com/wordpress/a-propos-de-nous/" class="btn">Entre sur le site !</a>
 		
