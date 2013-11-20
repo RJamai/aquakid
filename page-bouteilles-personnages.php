@@ -12,17 +12,17 @@ Template Name: Bouteilles et Personnages
 		        	<h2 class="main-subtitle"><?php the_field( "sous_titre" ); ?></h2>
 	        	</div><!-- .main-header -->
 	        	<div class="main-body formatted clearfix text-center l-characters">
-	        		<?php the_field( "image_presentation" ); ?>
+	        		<img class="formatted-img-full" src="<?php the_field( "image_presentation" ); ?>" alt="les bouteilles Aquakid" />
 	        		<hr />
         			<h2 class="formatted-title"><?php the_field( "titre_presentation" ); ?></h2>  
         			<p class="formatted-subtitle"><?php the_field( "sous-titre_presentation" ); ?></p>
-					<?php query_posts( 'post_type=personnage' ) ?>
+					<?php query_posts( 'post_type=personnage&order=ASC' ) ?>
 						<?php if ( have_posts() ) : ?>
 							<?php while ( have_posts() ) : the_post(); ?>
 								<article class="character">
 									<h3 class="character-name"><?php the_field( "nom_personnage" ); ?></h3>
-									<img class="character-bottle" src="<?php the_field( "image_bouteille" ); ?>" alt="la bouteille de <?php the_field( "nom_personnage" ); ?>">
-									<img class="character-picture" src="<?php the_field( "image_personnage" ); ?>" alt="<?php the_field( "nom_personnage" ); ?>">
+									<img class="character-bottle" src="<?php the_field( "image_bouteille" ); ?>" alt="la bouteille de <?php the_field( "nom_personnage" ); ?>" />
+									<img class="character-picture" src="<?php the_field( "image_personnage" ); ?>" alt="<?php the_field( "nom_personnage" ); ?>" />
 									<div class="character-container character-<?php the_field( "nom_personnage" ); ?>">
 										<?php the_field( "texte_personnage" ); ?>
 									</div>
