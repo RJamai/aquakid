@@ -13,9 +13,8 @@
     <link rel="shortcut icon" href="favicon.ico">
     <link rel="apple-touch-icon" href="apple-touch-icon-precomposed.png" />
 
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/main.css">
-    <script src="js/vendor/modernizr-2.6.2.custom.min.js"></script>
+    <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css">
+    <script src="http://www.aquakid.com/wordpress/wp-content/themes/aquakid/js/vendor/modernizr-2.6.2.custom.min.js"></script>
 </head>
 <body>
 <!--[if lt IE 7]>

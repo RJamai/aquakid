@@ -11,6 +11,6 @@ function my_custom_init()
 		'show_ui' => true,
 		'capability_type' => 'post',
 		'hierarchical' => false,
-		'supports' => array('title', 'excerpt', 'thumbnail')
+		'supports' => array('title', 'editor', 'thumbnail')
 	));
 }
