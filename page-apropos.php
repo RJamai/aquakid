@@ -9,7 +9,7 @@ Template Name: A propos
 	        <section class="l-main">
 	        	<div class="main-header">
 	        		<h1 class="main-title"><?php the_title() ?></h1>
-		        	<h2 class="main-subtitle"><span class="f-whimsy"><?php the_field( "sous_titre" ); ?></h2>
+		        	<h2 class="main-subtitle"><?php the_field( "sous_titre" ); ?></h2>
 	        	</div><!-- .main-header -->
 	        	<div class="main-body formatted clearfix l.about">
 	        		<div class="l-cols2 clearfix">
@@ -35,7 +35,7 @@ Template Name: A propos
 	        		<?php the_field( "bloc3_texte" ); ?>
 	        		<hr />
 	        		<h2 class="formatted-title"><?php the_field( "bloc4_titre" ); ?></h2>
-	        		<p><span class="f-whimsy"><?php the_field( "bloc3_texte" ); ?></p>
+	        		<p><span class="f-whimsy"><?php the_field( "bloc4_texte" ); ?></p>
 	        		<article class="team team-juan">
 	        			<img src="<?php the_field( "bloc4_image_gauche" ); ?>" alt="Juan - le directeur artistique d'Aquakid" />
 	        			<h3 class="team-name"><?php the_field( "bloc4_titre_image_gauche" ); ?></h3>
@@ -43,13 +43,13 @@ Template Name: A propos
 	        		</article>
 	        		<article class="team team-patricio">
 	        			<img src="<?php the_field( "bloc4_image_centrale" ); ?>" alt="Patricio - le papa franco-argentin" /> 
-	        			<h3 class="team-name"><?php the_field( "bloc4_titre_image_gauche" ); ?></h3>
-	        			<h4 class="team-function"><?php the_field( "bloc4_texte_image_gauche" ); ?></h4>
+	        			<h3 class="team-name"><?php the_field( "bloc4_titre_image_centrale" ); ?></h3>
+	        			<h4 class="team-function"><?php the_field( "bloc4_texte_centrale" ); ?></h4>
 	        		</article>
 	        		<article class="team team-ombeline">
-	        			<img src="<?php the_field( "bloc4_image_droite" ); ?> alt="ombeline - la maman franco-bourguignonne" /> 
-	        			<h3 class="team-name"><?php the_field( "bloc4_titre_image_gauche" ); ?></h3>
-	        			<h4 class="team-function"><?php the_field( "bloc4_texte_image_gauche" ); ?></h4>
+	        			<img src="<?php the_field( "bloc4_image_droite" ); ?>" alt="ombeline - la maman franco-bourguignonne" /> 
+	        			<h3 class="team-name"><?php the_field( "bloc4_titre_image_droite" ); ?></h3>
+	        			<h4 class="team-function"><?php the_field( "bloc4_texte_image_droite" ); ?></h4>
 	        		</article>
 	        	</div><!-- .main-body -->
 					
