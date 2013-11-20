@@ -13,7 +13,7 @@ Template Name: A propos
 	        	</div><!-- .main-header -->
 	        	<div class="main-body formatted clearfix l.about">
 	        		<div class="l-cols2 clearfix">
-		        		<?php the_field( "bloc1_image" ); ?>
+		        		<img class="col formatted-img-full" src="<?php the_field( "bloc1_image" ); ?>" alt="La mission d'Aquakid" />
 		        		<div class="col about-mission">
 			        		<h2 class="formatted-title"><?php the_field( "bloc1_titre" ); ?></h2>        		
 			        		<ul>
@@ -30,24 +30,24 @@ Template Name: A propos
 	        		</ul>		
 	        		<p><small><i>(Plus d'informations sur la rubrique <a href="faq.html">FAQ</a>)</i></small></p>
 	        		<hr />
-	        		<?php the_field( "bloc3_image" ); ?>
+	        		<img class="formatted-img-right" src="<?php the_field( "bloc3_image" ); ?>" alt="L'origine d'Aquakid" />
 	        		<h2 class="formatted-title"><?php the_field( "bloc3_titre" ); ?></h2>
 	        		<?php the_field( "bloc3_texte" ); ?>
 	        		<hr />
 	        		<h2 class="formatted-title"><?php the_field( "bloc4_titre" ); ?></h2>
 	        		<p><span class="f-whimsy"><?php the_field( "bloc3_texte" ); ?></p>
 	        		<article class="team team-juan">
-	        			<?php the_field( "bloc4_image_gauche" ); ?>
+	        			<img src="<?php the_field( "bloc4_image_gauche" ); ?>" alt="Juan - le directeur artistique d'Aquakid" />
 	        			<h3 class="team-name"><?php the_field( "bloc4_titre_image_gauche" ); ?></h3>
 	        			<h4 class="team-function"><?php the_field( "bloc4_texte_image_gauche" ); ?></h4>
 	        		</article>
 	        		<article class="team team-patricio">
-	        			<?php the_field( "bloc4_image_centrale" ); ?> 
+	        			<img src="<?php the_field( "bloc4_image_centrale" ); ?>" alt="Patricio - le papa franco-argentin" /> 
 	        			<h3 class="team-name"><?php the_field( "bloc4_titre_image_gauche" ); ?></h3>
 	        			<h4 class="team-function"><?php the_field( "bloc4_texte_image_gauche" ); ?></h4>
 	        		</article>
 	        		<article class="team team-ombeline">
-	        			<?php the_field( "bloc4_image_droite" ); ?> 
+	        			<img src="<?php the_field( "bloc4_image_droite" ); ?> alt="ombeline - la maman franco-bourguignonne" /> 
 	        			<h3 class="team-name"><?php the_field( "bloc4_titre_image_gauche" ); ?></h3>
 	        			<h4 class="team-function"><?php the_field( "bloc4_texte_image_gauche" ); ?></h4>
 	        		</article>
