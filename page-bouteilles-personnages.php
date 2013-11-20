@@ -21,9 +21,9 @@ Template Name: Bouteilles et Personnages
 							<?php while ( have_posts() ) : the_post(); ?>
 								<article class="character">
 									<h3 class="character-name"><?php the_field( "nom_personnage" ); ?></h3>
-									<?php the_field( "image_bouteille" ); ?>
-									<?php the_field( "image_personnage" ); ?>
-									<div class="character-container character-charlie">
+									<img class="character-bottle" src="<?php the_field( "image_bouteille" ); ?>" alt="la bouteille de <?php the_field( "nom_personnage" ); ?>">
+									<img class="character-picture" src="<?php the_field( "image_personnage" ); ?>" alt="<?php the_field( "nom_personnage" ); ?>">
+									<div class="character-container character-<?php the_field( "nom_personnage" ); ?>">
 										<?php the_field( "texte_personnage" ); ?>
 									</div>
 								</article>
