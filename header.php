@@ -26,23 +26,23 @@
         <a class="header-logo" href="index.php">Aquakid - L'eau officielle des enfants</a>
     </div>
     <nav class="l-nav l-constrained clearfix">
-        <a href="page-apropos.php" class="nav-link nav-link-about">
+        <a href="http://www.aquakid.com/wordpress/a-propos-de-nous/" class="nav-link nav-link-about">
             <i class="icon-cat"></i>
             À propos<br /> de nous
         </a>
-        <a href="page-bouteilles-personnages.php" class="nav-link nav-link-bottles">
+        <a href="http://www.aquakid.com/wordpress/bouteilles-et-personnages/" class="nav-link nav-link-bottles">
             <i class="icon-monkey"></i>
             Bouteilles et<br /> personnages
         </a>
-        <a href="page-eau-magique.php" class="nav-link nav-link-water">
+        <a href="http://www.aquakid.com/wordpress/notre-eau-magique/" class="nav-link nav-link-water">
             <i class="icon-lion"></i>
             Notre eau<br /> magique
         </a>
-        <a href="page-secret-bonheur.php" class="nav-link nav-link-happiness">
+        <a href="http://www.aquakid.com/wordpress/le-secret-du-bonheur/" class="nav-link nav-link-happiness">
             <i class="icon-duck"></i>
             Le secret<br /> du bonheur
         </a>
-        <a href="page-nous-trouver.php" class="nav-link nav-link-findus is-active">
+        <a href="http://www.aquakid.com/wordpress/ou-nous-trouver/" class="nav-link nav-link-findus is-active">
             <i class="icon-chick"></i>
             Où nous<br /> trouver
         </a>

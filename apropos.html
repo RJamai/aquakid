@@ -1,29 +1,135 @@
-<?php
-/*
-Template Name: A propos
-*/
-?>
-<?php get_header(); ?>
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>À propos - AQUAKID</title>
+        <meta name="description" content="Aquakid est l'eau minérale naturelle conçue par les enfants pour les enfants !!!">
+        <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1.0, user-scalable=no">
+
+        <link rel="shortcut icon" href="favicon.ico">
+        <link rel="apple-touch-icon" href="apple-touch-icon-precomposed.png" />
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <script src="js/vendor/modernizr-2.6.2.custom.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">Vous utilisez un navigateur <strong>trop vieux</strong>. Nous vous recommandons de le <a href="http://browsehappy.com/">mettre à jour</a> pour pouvoir visualiser le site correctement.</p>
+        <![endif]-->
+	
+		<header class="l-header">
+	        <div class="header-backgroundcolor">
+	            <a class="header-logo" href="index.html">Aquakid - L'eau officielle des enfants</a>
+	        </div>
+	        <nav class="l-nav l-constrained clearfix">
+	        	<a href="apropos.html" class="nav-link nav-link-about is-active">
+	        		<i class="icon-cat"></i>
+	        		À propos<br /> de nous
+	        	</a>
+	        	<a href="bouteilles-personnages.html" class="nav-link nav-link-bottles">
+	        		<i class="icon-monkey"></i>
+	        		Bouteilles et<br /> personnages
+	        	</a>
+	        	<a href="eau-magique.html" class="nav-link nav-link-water">
+	        		<i class="icon-lion"></i>
+	        		Notre eau<br /> magique
+	        	</a>
+	        	<a href="secret-bonheur.html" class="nav-link nav-link-happiness">
+	        		<i class="icon-duck"></i>
+	        		Le secret<br /> du bonheur
+	        	</a>
+	        	<a href="ou-nous-trouver.html" class="nav-link nav-link-findus">
+	        		<i class="icon-chick"></i>
+	        		Où nous<br /> trouver 
+	        	</a>
+	        </nav>
+	    </header>
         
         <div class="l-constrained">
 	        <section class="l-main">
 	        	<div class="main-header">
-	        		<h1 class="main-title"><?php the_title(); ?></h1>
-		        	<h2 class="main-subtitle"><?php the_field( "sous_titre" ); ?></h2>
+	        		<h1 class="main-title">À propos de nous</h1>
+		        	<h2 class="main-subtitle"><span class="f-whimsy">Aquakid</span> est l'eau minérale naturelle conçue par les enfants pour les enfants !!!</h2>
 	        	</div><!-- .main-header -->
 	        	<div class="main-body formatted clearfix l.about">
 	        		<div class="l-cols2 clearfix">
 		        		<img class="col formatted-img-full" src="img/mission-aquakid.png" alt="La mission d'Aquakid" />
 		        		<div class="col about-mission">
-			        		<?php the_field( "notre_mission" ); ?>
+			        		<h2 class="formatted-title">Notre mission</h2>        		
+			        		<ul>
+			        			<li>Rendre l'<b>eau amusante</b> pour nos enfants,</li>
+			        			<li>Être <b>une alternative</b> aux boissons sucrées,</li>
+			        			<li>Participer à la <b>lutte contre l'obésité</b> infantile.</li>
+			        		</ul>
 		        		</div><!-- .col -->
 	        		</div><!-- .l-cols2 -->
 	        		<hr />
-						<?php the_field( "le_contexte" ); ?>
+	        		<h2 class="formatted-title">Le contexte</h2>       
+	        		<ul class="l-cols3 clearfix formatted-warning">
+	        			<li class="col">La consommation excessive de glucides, notamment sous forme de boissons, est une cause majeure de surpoids et d’obésité.</li>
+	        			<li class="col">En France, 1 enfant sur 5 est en surpoids ou obèse aujourd'hui, c'est deux fois plus qu'en 1980.</li>
+	        			<li class="col">Le surpoids et l’obésité provoquent de nombreuses maladies chroniques (diabète, hypertension artérielle, cancer, etc.)</li>
+	        		</ul>		
+	        		<p><small><i>(Plus d'informations sur la rubrique <a href="faq.html">FAQ</a>)</i></small></p>
 	        		<hr />
-						<?php the_field( "origine_aquakid" ); ?>
+	        		<img class="formatted-img-right" src="img/origine-aquakid.png" alt="L'origine d'Aquakid" />
+	        		<h2 class="formatted-title">L'origine d'Aquakid</h2>
+	        		<p>Tout commence au cours d'un "paisible" dîner familial. Notre fils aîné refuse encore de boire son verre d'eau et exige un soda... Je me lance alors dans un magnifique exposé de nutrition mais... c'est un véritable échec&nbsp;!</p>
+	        		<p>J’essaie des stratagèmes de plus en plus sophistiqués mais… rien n’y fait&nbsp;! Ni la pédagogie, ni les techniques de négociation n’arrivent à le faire changer d’avis. Je suis sur le point de me résigner quand j’aperçois un livre sur les animaux de la jungle, posé sur la table de la cuisine. Une idée me vient alors à l’esprit&nbsp;: «&nbsp;Et si les animaux nous donnaient un coup de main afin de rendre l’eau plus amusante pour nos enfants&nbsp;?&nbsp;».</p>
+	        		<p>C’est ainsi que notre petite famille a créé <span class="f-whimsy">AQUAKID</span>, une eau minérale naturelle conçue par les enfants, pour les enfants, afin d’être une alternative rigolote aux sodas et autres boissons sucrées&nbsp;!</p>
 	        		<hr />
-						<?php the_field( "equipe_aquakid" ); ?>
-				</div><!-- .main-body -->
-					
-<?php get_footer(); ?>
+	        		<h2 class="formatted-title">L'equipe d'Aquakid</h2>
+	        		<p><span class="f-whimsy">Aquakid</span> est menée par une équipe de folie !!</p>
+	        		<article class="team team-juan">
+	        			<img src="img/juan-equipe-aquakid.jpg" alt="Juan - le directeur artistique d'Aquakid" /> 
+	        			<h3 class="team-name">Juan</h3>
+	        			<h4 class="team-function">le directeur artistique tyrannique</h4>
+	        		</article>
+	        		<article class="team team-patricio">
+	        			<img src="img/patricio-equipe-aquakid.jpg" alt="Patricio - le papa franco-argentin" /> 
+	        			<h3 class="team-name">Patricio</h3>
+	        			<h4 class="team-function">le papa franco-argentin</h4>
+	        		</article>
+	        		<article class="team team-ombeline">
+	        			<img src="img/ombeline-equipe-aquakid.jpg" alt="ombeline - la maman franco-bourguignonne" /> 
+	        			<h3 class="team-name">Ombeline</h3>
+	        			<h4 class="team-function">la maman franco-bourguignonne</h4>
+	        		</article>
+	        	</div><!-- .main-body -->
+	        	<footer class="l-footer">
+	        		<nav class="l-nav l-nav-small clearfix">
+	        			<a href="faq.html" class="nav-link nav-link-faq">
+	        				<i class="icon-elephant"></i>
+	        				FAQ
+	        			</a>
+	        			<a href="contact.html" class="nav-link nav-link-contact">
+	        				<i class="icon-crocodile"></i>
+	        				Contact
+	        			</a>
+	        		</nav>
+	        		<p class="footer-bottom">AQUAKID 2013 - <a href="mentions-legales.html">Mentions légales</a></p>
+	        	</footer>
+	        </section>
+	        </div><!-- .l-constrained -->
+	
+	        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+	        <script src="js/main.js"></script>
+	
+	        <script>
+	          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	        
+	          ga('create', 'UA-37903440-3', 'aquakid.com');
+	          ga('send', 'pageview');
+	        
+	        </script>
+	    </body>
+	</html>
