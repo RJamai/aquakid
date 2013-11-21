@@ -37,7 +37,13 @@ Template Name: Secret du bonheur
 						<?php the_field( "sous_titre_deuxieme_regle" ); ?>
 					</p>   
 	        		<div class="l-cols3 clearfix">
-						<?php the_field( "contenu_deuxieme_regle" ); ?>
+						<p class="col f-orange"><?php the_field( "colonne_haut-gauche_deuxieme_regle" ); ?></p>	        			
+	        			<p class="col f-orange"><?php the_field( "colonne_haut-centre_deuxieme_regle" ); ?></p>
+	        			<p class="col f-blue"><?php the_field( "colonne_haut-droite_deuxieme_regle" ); ?></p>
+	        			<img src="<?php the_field( "image_deuxieme_regle" ); ?>" alt="Pyramides des repas" class="formatted-img-full" />
+	        			<p class="col f-green"><?php the_field( "colonne_bas-gauche_deuxieme_regle" ); ?></p>
+	        			<p class="col f-green"><?php the_field( "colonne_bas-centre_deuxieme_regle" ); ?></p>
+	        			<p class="col f-blue"><?php the_field( "colonne_bas-droite_deuxieme_regle" ); ?></p>
 					</div><!-- .l-cols3 -->	
 	        		<hr />
 	        		<h2 class="formatted-title"><span class="f-darkblue">Regle n°3 : </span><?php the_field( "titre_troisieme_regle" ); ?></h2>	
@@ -46,9 +52,7 @@ Template Name: Secret du bonheur
 	        				<img src="<?php the_field( "image1_troisieme_regle" ); ?>" alt="" />
 	        			</div>
 	        			<div class="col">
-	        				<p>
 								<?php the_field( "texte1_troisieme_regle" ); ?>
-							</p>
 	        			</div>
 	        		</div>
 	        		<div class="l-cols2 clearfix marginbottom2">
