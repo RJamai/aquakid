@@ -1,27 +1,144 @@
-<?php
-/*
-Template Name: Eau magique
-*/
-?>
-<?php get_header(); ?>
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Notre eau magique - AQUAKID</title>
+        <meta name="description" content="Aquakid est un savant mélange d'eau minérale et de bonne humeur... c'est tout !!!">
+        <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1.0, user-scalable=no">
+
+        <link rel="shortcut icon" href="favicon.ico">
+        <link rel="apple-touch-icon" href="apple-touch-icon-precomposed.png" />
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <script src="js/vendor/modernizr-2.6.2.custom.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">Vous utilisez un navigateur <strong>trop vieux</strong>. Nous vous recommandons de le <a href="http://browsehappy.com/">mettre à jour</a> pour pouvoir visualiser le site correctement.</p>
+        <![endif]-->
+	
+		<header class="l-header">
+	        <div class="header-backgroundcolor">
+	            <a class="header-logo" href="index.html">Aquakid - L'eau officielle des enfants</a>
+	        </div>
+	        <nav class="l-nav l-constrained clearfix">
+	        	<a href="apropos.html" class="nav-link nav-link-about">
+	        		<i class="icon-cat"></i>
+	        		À propos<br /> de nous
+	        	</a>
+	        	<a href="bouteilles-personnages.html" class="nav-link nav-link-bottles">
+	        		<i class="icon-monkey"></i>
+	        		Bouteilles et<br /> personnages
+	        	</a>
+	        	<a href="eau-magique.html" class="nav-link nav-link-water is-active">
+	        		<i class="icon-lion"></i>
+	        		Notre eau<br /> magique
+	        	</a>
+	        	<a href="secret-bonheur.html" class="nav-link nav-link-happiness">
+	        		<i class="icon-duck"></i>
+	        		Le secret<br /> du bonheur
+	        	</a>
+	        	<a href="ou-nous-trouver.html" class="nav-link nav-link-findus">
+	        		<i class="icon-chick"></i>
+	        		Où nous<br /> trouver 
+	        	</a>
+	        </nav>
+	    </header>
         
         <div class="l-constrained">
 	        <section class="l-main">
 	        	<div class="main-header">
-	        		<h1 class="main-title"><?php the_title(); ?></h1>
-		        	<h2 class="main-subtitle"><?php the_field( "sous_titre" ); ?></h2>
+	        		<h1 class="main-title">Notre eau magique</h1>
+		        	<h2 class="main-subtitle"><span class="f-whimsy">Aquakid</span> est un savant mélange d'eau minérale et de bonne humeur... c'est tout !!!</h2>
 	        	</div><!-- .main-header -->
 	        	<div class="main-body formatted clearfix">
 	        		<div class="l-cols2 clearfix">
-		        		<?php the_field( "illustration" ); ?>
+		        		<img class="col formatted-img-full" src="img/cheval-eau.png" alt="Notre eau magique" />
 		        		<div class="col">
-			        		<?php the_field( "texte_droite_image" ); ?>
+			        		<p>L’eau minérale naturelle <span class="f-whimsy">Aquakid</span> est d’une pureté exceptionnelle : elle jaillit dans un environnement privilégié, au cœur du Parc Naturel des Vosges du Nord, territoire classé Réserve Mondiale de Biosphère par l’UNESCO.</p> 
+			        		<p><span class="f-whimsy">Aquakid</span> peut être bue par toute la famille, tous les jours, grâce à sa pureté naturelle et à sa composition minérale optimale.</p>
 		        		</div><!-- .col -->
 	        		</div><!-- .l-cols2 -->
-	        			<?php the_field( "texte_sous_image" ); ?>
+	        			<p>Faiblement minéralisée, <span class="f-whimsy">Aquakid</span> est particulièrement recommandée pour l’alimentation des nourrissons, des enfants et des femmes enceintes… Et même les grands-parents peuvent consommer <span class="f-whimsy">Aquakid</span> , car son taux de sodium est ridiculement bas (0,001g/l) !</p>
+		        		<p><span class="f-whimsy">Aquakid</span>  est un produit 100% Cocorico !!! Les bouteilles, les bouchons et les étiquettes sont entièrement fabriqués en France et sont bien évidemment 100% recyclables.</P>
 	        		<hr />
 	        		<div class="l-water">
-	        			<?php the_field( "tableau_caracteristiques" ); ?>
+	        			<table class="water-table">
+	        				<tr>
+	        					<td class="water-title"colspan="4"><span class="f-whimsy">Aquakid</span> - Principales caractéristiques</td>
+	        				</tr>
+	        				<tr>
+	        					<td>Sodium</td>
+	        					<td>1,1 mg/l</td>
+	        					<td>Nitrates</td>
+	        					<td>2,1 mg/l</td>
+	        				</tr>
+	        				<tr>
+	        					<td>Potassium</td>
+	        					<td>1,9 mg/l</td>
+	        					<td>Fer</td>
+	        					<td>0,005 mg/l</td>
+	        				</tr>	
+	        				<tr>
+	        					<td>Bicarbonates</td>
+	        					<td>48 mg/l</td>
+	        					<td>Calcium</td>
+	        					<td>10,5 mg/l</td>
+	        				</tr>
+	        				<tr>
+	        					<td>Sulfates</td>
+	        					<td>6 mg/l</td>
+	        					<td>Magnésium</td>
+	        					<td>4 mg/l</td>
+	        				</tr>
+	        				<tr>
+	        					<td>Chlorures</td>
+	        					<td>&lt;5 mg/l</td>
+	        					<td>Fluor</td>
+	        					<td>&lt;10 mg/l</td>
+	        				</tr>
+	        				<tr>
+	        					<td>Résidu à sec à 180°C</td>
+	        					<td>50 mg/l</td>
+	        					<td>pH</td>
+	        					<td>7,5</td>
+	        				</tr>
+	        			</table>
 	        		</div>
-
-<?php get_footer(); ?>
+	        	<footer class="l-footer">
+	        		<nav class="l-nav l-nav-small clearfix">
+	        			<a href="faq.html" class="nav-link nav-link-faq">
+	        				<i class="icon-elephant"></i>
+	        				FAQ
+	        			</a>
+	        			<a href="contact.html" class="nav-link nav-link-contact">
+	        				<i class="icon-crocodile"></i>
+	        				Contact
+	        			</a>
+	        		</nav>
+	        		<p class="footer-bottom">AQUAKID 2013 - <a href="mentions-legales.html">Mentions légales</a></p>
+	        	</footer>
+	        </section>
+	        </div><!-- .l-constrained -->
+	
+	        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+	        <script src="js/main.js"></script>
+	
+	        <script>
+	          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	        
+	          ga('create', 'UA-37903440-3', 'aquakid.com');
+	          ga('send', 'pageview');
+	        
+	        </script>
+	    </body>
+	</html>

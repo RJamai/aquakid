@@ -12,7 +12,7 @@ Template Name: Secret du bonheur
 		        	<h2 class="main-subtitle"><?php the_field( "sous_titre" ); ?></h2>
 	        	</div><!-- .main-header -->
 	        	<div class="main-body formatted clearfix l-happiness">
-	        		<?php the_field( "image1_premiere_regle" ); ?>
+	        		<img class="formatted-img-left" src="<?php the_field( "image1_premiere_regle" ); ?>" alt="Le secret du bonheur" />
     				<h2 class="formatted-title"><span class="f-darkblue">Regle n°1&nbsp;: </span> <?php the_field( "titre_premiere_regle" ); ?></h2>        		
     				<p>
 						<?php the_field( "texte1_premiere_regle" ); ?>
@@ -26,7 +26,7 @@ Template Name: Secret du bonheur
 							</p>
     					</div>
     					<figure class="col text-center">
-    						<?php the_field( "image2_premiere_regle" ); ?>
+    						<img class="formatted-img-full" src="<?php the_field( "image2_premiere_regle" ); ?>" alt="La quantité d'eau dans le corps d'un enfant" />
     						<figcaption><i><?php the_field( "detail_image2_premiere_regle" ); ?></i></figcaption>
     					</figure>
     				</div><!-- .l-cols2 -->
@@ -43,7 +43,7 @@ Template Name: Secret du bonheur
 	        		<h2 class="formatted-title"><span class="f-darkblue">Regle n°3 : </span><?php the_field( "titre_troisieme_regle" ); ?></h2>	
 	        		<div class="l-cols2 clearfix marginbottom2">
 	        			<div class="col text-center">
-	        				<?php the_field( "image1_troisieme_regle" ); ?>
+	        				<img src="<?php the_field( "image1_troisieme_regle" ); ?>" alt="" />
 	        			</div>
 	        			<div class="col">
 	        				<p>
@@ -58,12 +58,12 @@ Template Name: Secret du bonheur
 							</p>	        					        				
 	        			</div>
 	        			<div class="col text-center">
-	        				<?php the_field( "image2_troisieme_regle" ); ?>
+	        				<img src="<?php the_field( "image2_troisieme_regle" ); ?>" alt="" />
 	        			</div>
 	        		</div>
 	        		<div class="l-cols2 clearfix">
 	        			<div class="col text-center">
-	        				<?php the_field( "image3_troisieme_regle" ); ?>
+	        				<img src="<?php the_field( "image3_troisieme_regle" ); ?>" alt="" />
 	        			</div>
 	        			<div class="col">
 	        				<p>
@@ -72,7 +72,26 @@ Template Name: Secret du bonheur
 	        			</div>
 	        		</div><!-- .l-cols2 -->
 	        		<hr />
-	        		<?php the_field( "bloc_conclusion" ); ?>
+	        		<h2 class="formatted-title">Conclusion...</h2>	
+	        		<span class="happiness-conclusion-blue">
+	        			<i class="icon-water"></i><br />
+	        			Eau a<br /> gogo
+	        		</span>
+	        		<span class="happiness-math">+</span>
+	        		<span class="happiness-conclusion-orange">
+	        			<i class="icon-fruits"></i><br />
+	        			Fruits et<br /> legumes
+	        		</span>
+	        		<span class="happiness-math">+</span>
+					<span class="happiness-conclusion-red">
+						<i class="icon-sport"></i><br />
+						Exercice<br /> physique
+					</span>
+					<span class="happiness-math">=</span>
+					<span class="happiness-result">
+						<span>B</span><span>o</span><span>n</span><span>h</span><span>e</span><span>u</span><span>r</span> <span>!</span><span>!</span><span>!</span>
+					</span>
+	        		<p class="margintop2"><i>Tous ces conseils sont conformes aux recommandations du PNNS (Plan National Nutrition Santé).</i></p>
 	        	</div><!-- .main-body -->
 				
 <?php get_footer(); ?>

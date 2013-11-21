@@ -13,7 +13,7 @@ Template Name: Eau magique
 	        	</div><!-- .main-header -->
 	        	<div class="main-body formatted clearfix">
 	        		<div class="l-cols2 clearfix">
-		        		<?php the_field( "illustration" ); ?>
+		        		<img class="col formatted-img-full" src="<?php the_field( "illustration" ); ?>" alt="Notre eau magique" />
 		        		<div class="col">
 			        		<?php the_field( "texte_droite_image" ); ?>
 		        		</div><!-- .col -->
