@@ -47,7 +47,7 @@ Template Name: Secret du bonheur
 					</div><!-- .l-cols3 -->	
 	        		<hr />
 	        		<h2 class="formatted-title"><span class="f-darkblue">Regle n°3 : </span><?php the_field( "titre_troisieme_regle" ); ?></h2>	
-	        		<div class="l-cols2 clearfix marginbottom2">
+	        		<div class="l-cols2 clearfix marginbottom1">
 	        			<div class="col text-center">
 	        				<img src="<?php the_field( "image1_troisieme_regle" ); ?>" alt="" />
 	        			</div>
@@ -55,24 +55,24 @@ Template Name: Secret du bonheur
 								<?php the_field( "texte1_troisieme_regle" ); ?>
 	        			</div>
 	        		</div>
-	        		<div class="l-cols2 clearfix marginbottom2">
+	        		<div class="l-cols2 clearfix ">
 	        			<div class="col">
 	        				<p>
 								<?php the_field( "texte2_troisieme_regle" ); ?>
 							</p>	        					        				
 	        			</div>
-	        			<div class="col text-center">
-	        				<img src="<?php the_field( "image2_troisieme_regle" ); ?>" alt="" />
-	        			</div>
-	        		</div>
-	        		<div class="l-cols2 clearfix">
-	        			<div class="col text-center">
-	        				<img src="<?php the_field( "image3_troisieme_regle" ); ?>" alt="" />
-	        			</div>
 	        			<div class="col">
 	        				<p>
 								<?php the_field( "texte3_troisieme_regle" ); ?>
 							</p>
+	        			</div>
+	        		</div>
+	        		<div class="l-cols2 clearfix">
+	        			<div class="col text-center">
+	        				<img src="<?php the_field( "image2_troisieme_regle" ); ?>" alt="" />
+	        			</div>
+						<div class="col text-center">
+	        				<img src="<?php the_field( "image3_troisieme_regle" ); ?>" alt="" />
 	        			</div>
 	        		</div><!-- .l-cols2 -->
 	        		<hr />
