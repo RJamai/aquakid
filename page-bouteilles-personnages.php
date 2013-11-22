@@ -24,10 +24,10 @@ Template Name: Bouteilles et Personnages
 									<img class="character-bottle" src="<?php the_field( "image_bouteille" ); ?>" alt="la bouteille de <?php the_field( "nom_personnage" ); ?>" />
 									<img class="character-picture" src="<?php the_field( "image_personnage" ); ?>" alt="<?php the_field( "nom_personnage" ); ?>" />
 									<div class="character-container character-<?php the_field( "nom_personnage" ); ?>">
-										<?php the_field( "texte_personnage" ); ?>
+										<p class="character-description"><?php the_field( "texte_personnage" ); ?></p>
 									</div>
 								</article>
-								<hr>
+								<?php the_field( "separation" ); ?>
 							<?php endwhile; ?>
 						<?php endif; ?>	
         			<div class="margintop2"></div>        	

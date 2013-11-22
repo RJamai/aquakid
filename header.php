@@ -25,7 +25,7 @@
         <a class="header-logo" href="http://www.aquakid.com/wordpress/">Aquakid - L'eau officielle des enfants</a>
     </div>
     <nav class="l-nav l-constrained clearfix">
-        <a href="http://www.aquakid.com/wordpress/a-propos-de-nous/" class="nav-link nav-link-about <?php echo is_page( 'A propos de nous' ) ? ' is-active ': '' ?>">
+        <a href="http://www.aquakid.com/wordpress/a-propos-de-nous/" class="nav-link nav-link-about <?php echo is_page( 'à propos de nous' ) ? ' is-active ': '' ?>">
             <i class="icon-cat"></i>
             À propos<br /> de nous
         </a>
@@ -41,7 +41,7 @@
             <i class="icon-duck"></i>
             Le secret<br /> du bonheur
         </a>
-        <a href="http://www.aquakid.com/wordpress/ou-nous-trouver/" class="nav-link nav-link-findus <?php echo is_page( 'Ou nous trouver' ) ? ' is-active ': '' ?>">
+        <a href="http://www.aquakid.com/wordpress/ou-nous-trouver/" class="nav-link nav-link-findus <?php echo is_page( 'Où nous trouver' ) ? ' is-active ': '' ?>">
             <i class="icon-chick"></i>
             Où nous<br /> trouver
         </a>

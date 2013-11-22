@@ -1,10 +1,10 @@
 			<footer class="l-footer">
 	       		<nav class="l-nav l-nav-small clearfix">
-	        		<a href="http://www.aquakid.com/wordpress/faq/" class="nav-link nav-link-faq">
+	        		<a href="http://www.aquakid.com/wordpress/faq/" class="nav-link nav-link-faq <?php echo is_page( 'Foire aux questions' ) ? ' is-active ': '' ?>">
 	        			<i class="icon-elephant"></i>
 	        			FAQ
 	        		</a>
-	        		<a href="http://www.aquakid.com/wordpress/contact/" class="nav-link nav-link-contact">
+	        		<a href="http://www.aquakid.com/wordpress/contact/" class="nav-link nav-link-contact <?php echo is_page( 'Contact' ) ? ' is-active ': '' ?>">
 	        			<i class="icon-crocodile"></i>
 	        			Contact
 	        		</a>
