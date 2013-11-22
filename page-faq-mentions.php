@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: FAQ
+Template Name: FAQ/Mentions
 */
 ?>
 <?php get_header(); ?>
@@ -11,7 +11,7 @@ Template Name: FAQ
 	        		<h1 class="main-title"><?php the_title() ?></h1>
 	        	</div><!-- .main-header -->
 	        	<div class="main-body formatted">
-					<?php the_field( "contenu_faq" ); ?>
+					<?php the_field( "contenu_faq_mentions" ); ?>
 	        	</div><!-- .main-body -->
 				
 <?php get_footer(); ?>
