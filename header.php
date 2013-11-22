@@ -23,7 +23,7 @@
 
 <header class="l-header">
     <div class="header-backgroundcolor">
-        <a class="header-logo" href="index.php">Aquakid - L'eau officielle des enfants</a>
+        <a class="header-logo" href="http://www.aquakid.com/wordpress/">Aquakid - L'eau officielle des enfants</a>
     </div>
     <nav class="l-nav l-constrained clearfix">
         <a href="http://www.aquakid.com/wordpress/a-propos-de-nous/" class="nav-link nav-link-about">

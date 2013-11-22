@@ -40,7 +40,7 @@ Template Name: Secret du bonheur
 						<p class="col f-orange"><?php the_field( "colonne_haut-gauche_deuxieme_regle" ); ?></p>	        			
 	        			<p class="col f-orange"><?php the_field( "colonne_haut-centre_deuxieme_regle" ); ?></p>
 	        			<p class="col f-blue"><?php the_field( "colonne_haut-droite_deuxieme_regle" ); ?></p>
-	        			<img src="<?php the_field( "image_deuxieme_regle" ); ?>" alt="Pyramides des repas" class="formatted-img-full" />
+	        			<img class="formatted-img-full" src="<?php the_field( "image_deuxieme_regle" ); ?>" alt="Pyramides des repas" />
 	        			<p class="col f-green"><?php the_field( "colonne_bas-gauche_deuxieme_regle" ); ?></p>
 	        			<p class="col f-green"><?php the_field( "colonne_bas-centre_deuxieme_regle" ); ?></p>
 	        			<p class="col f-blue"><?php the_field( "colonne_bas-droite_deuxieme_regle" ); ?></p>
