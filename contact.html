@@ -1,18 +1,80 @@
-<?php
-/*
-Template Name: Contact
-*/
-?>
-<?php get_header(); ?>
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Contact - AQUAKID</title>
+        <meta name="description" content="Pour contacter la joyeuse bande d'AQUAKID, c’est fastoche ">
+        <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1.0, user-scalable=no">
+
+        <link rel="shortcut icon" href="favicon.ico">
+        <link rel="apple-touch-icon" href="apple-touch-icon-precomposed.png" />
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <script src="js/vendor/modernizr-2.6.2.custom.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">Vous utilisez un navigateur <strong>trop vieux</strong>. Nous vous recommandons de le <a href="http://browsehappy.com/">mettre à jour</a> pour pouvoir visualiser le site correctement.</p>
+        <![endif]-->
+	
+		<header class="l-header">
+	        <div class="header-backgroundcolor">
+	            <a class="header-logo" href="index.html">Aquakid - L'eau officielle des enfants</a>
+	        </div>
+	        <nav class="l-nav l-constrained clearfix">
+	        	<a href="apropos.html" class="nav-link nav-link-about">
+	        		<i class="icon-cat"></i>
+	        		À propos<br /> de nous
+	        	</a>
+	        	<a href="bouteilles-personnages.html" class="nav-link nav-link-bottles">
+	        		<i class="icon-monkey"></i>
+	        		Bouteilles et<br /> personnages
+	        	</a>
+	        	<a href="eau-magique.html" class="nav-link nav-link-water">
+	        		<i class="icon-lion"></i>
+	        		Notre eau<br /> magique
+	        	</a>
+	        	<a href="secret-bonheur.html" class="nav-link nav-link-happiness">
+	        		<i class="icon-duck"></i>
+	        		Le secret<br /> du bonheur
+	        	</a>
+	        	<a href="ou-nous-trouver.html" class="nav-link nav-link-findus">
+	        		<i class="icon-chick"></i>
+	        		Où nous<br /> trouver 
+	        	</a>
+	        </nav>
+	    </header>
         
         <div class="l-constrained">
 	        <section class="l-main">
 	        	<div class="main-header">
-	        		<h1 class="main-title"><?php the_title(); ?></h1>
-		        	<h2 class="main-subtitle"><?php the_field( "sous_titre" ); ?></h2>
+	        		<h1 class="main-title">Contact</h1>
+		        	<h2 class="main-subtitle">Pour contacter la joyeuse bande d'<span class="f-whimsy">AQUAKID</span>, c’est fastoche&nbsp;! </h2>
 	        	</div><!-- .main-header -->
 	        	<div class="main-body formatted l-contact">
-						<?php the_field( "contenu_page" ); ?>
+	        		<div class="l-cols2 clearfix">
+	        			<div class="col text-right">
+	        				<div class="contact-social">
+	        					<a href="https://twitter.com/AquaKideau" target="_blank"><i class="icon-twitter"></i></a>
+	        				</div>
+	        				<div class="contact-social">
+	        					<a href="https://www.facebook.com/aquakideau" target="_blank"><i class="icon-facebook"></i></a>
+	        				</div>
+	        			</div>
+	        			<div class="col contact-address">
+	        				<h2 class="formatted-title f-darkblue">AQUAKID</h2>
+	        				<p>132, avenue Victor Hugo<br />
+	        				75116 Paris - France</p>
+	        				<p><a class="contact-link" href="mailto:bonjour@aquakid.com">bonjour@aquakid.com</a></p>
+	        				<p><a class="contact-link" href="tel:+33 6 71 53 95 36">+33 (0)6 71 53 95 36</a></p>
+	        			</div>
+	        		</div>
+	        		<p class="text-center">Lettres d’amour, éloges, critiques, suggestions ou questions sont les bienvenus&nbsp;!!!</p>
 	        		<hr />
 	        		<form class="form" id="contact-form" action="">
 	        			<label for="contact-lastname">Nom*</label>
@@ -30,5 +92,35 @@ Template Name: Contact
 	        			<p id="form-success" class="alert-success text-center" style="display: none;">Votre message nous a bien été envoyé. Merci&nbsp;!</p>
 	        		</form>	        	
 	        	</div><!-- .main-body -->
-
-<?php get_footer(); ?>
+	        	<footer class="l-footer">
+	        		<nav class="l-nav l-nav-small clearfix">
+	        			<a href="faq.html" class="nav-link nav-link-faq">
+	        				<i class="icon-elephant"></i>
+	        				FAQ
+	        			</a>
+	        			<a href="contact.html" class="nav-link nav-link-contact is-active">
+	        				<i class="icon-crocodile"></i>
+	        				Contact
+	        			</a>
+	        		</nav>
+	        		<p class="footer-bottom">AQUAKID 2013 - <a href="mentions-legales.html">Mentions légales</a></p>
+	        	</footer>
+	        </section>
+	        </div><!-- .l-constrained -->
+	
+	        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+	        <script src="js/main.js"></script>
+	
+	       	<script>
+	       	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	       	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	       	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	       	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	       	
+	       	  ga('create', 'UA-37903440-3', 'aquakid.com');
+	       	  ga('send', 'pageview');
+	       	
+	       	</script>
+	    </body>
+	</html>

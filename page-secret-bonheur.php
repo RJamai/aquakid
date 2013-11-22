@@ -27,7 +27,7 @@ Template Name: Secret du bonheur
     					</div>
     					<figure class="col text-center">
     						<img class="formatted-img-full" src="<?php the_field( "image2_premiere_regle" ); ?>" alt="La quantité d'eau dans le corps d'un enfant" />
-    						<figcaption><i><?php the_field( "detail_image2_premiere_regle" ); ?></i></figcaption>
+    						<figcaption><i><?php the_field( "commentaire_image2_premiere_regle" ); ?></i></figcaption>
     					</figure>
     				</div><!-- .l-cols2 -->
     				    		

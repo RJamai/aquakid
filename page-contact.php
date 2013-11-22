@@ -12,7 +12,15 @@ Template Name: Contact
 		        	<h2 class="main-subtitle"><?php the_field( "sous_titre" ); ?></h2>
 	        	</div><!-- .main-header -->
 	        	<div class="main-body formatted l-contact">
-						<?php the_field( "contenu_page" ); ?>
+					<div class="l-cols2 clearfix">
+	        			<div class="col text-right">
+	        				<?php the_field( "reseaux_sociaux" ); ?>
+	        			</div>
+	        			<div class="col contact-address">
+	        				<?php the_field( "informations_contact" ); ?>
+	        			</div>
+	        		</div>
+	        		<p class="text-center"><?php the_field( "commentaire" ); ?></p>
 	        		<hr />
 	        		<form class="form" id="contact-form" action="">
 	        			<label for="contact-lastname">Nom*</label>
